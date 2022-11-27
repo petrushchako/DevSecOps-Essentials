@@ -12,11 +12,11 @@ https://github.com/docker/docker-bench-security.git
 
 Learning Objectives
 1. Clone the Docker Bench repo from GitHub into the current working directory.
-**git clone https://github.com/docker/docker-bench-security.git**
+<code>git clone https://github.com/docker/docker-bench-security.git</code>
   
 2. Change directory to the docker-bench-security directory and run the docker-bench-security script.
 Change your present working directory to docker-bench-security:
-**$ cd docker-bench-security**
+**<code>$ cd docker-bench-security</code>**
   
 Using superuser permissions execute the docker-bench-security.sh shell script and redirect standard output to a file called /tmp/bench1.out
 **$ sudo sh docker-bench-security.sh > /tmp/bench1.out**
